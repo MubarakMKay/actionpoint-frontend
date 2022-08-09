@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="../CSS/SignUp.css">
+        <script src="../Js/SignUp.Js" defer></script>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
+        <script src="https://kit.fontawesome.com/a088a21716.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <a href="LandingPage.html" target="_self"><img src="../Img/ActionPoint.svg" alt="Action Point"></a>
+        </header>
+        <section>
+            <form>
+                <fieldset>
+                    <legend>
+                        <h2>Create an Account</h2>
+                        <h4>Get Ready to use the best PMS Tools</h4>
+                    </legend>
+                    <div>
+                        <div id="email">
+                            <label>Email</label><br>
+                            <input type="email" name="email" placeholder="Type Email Here" required autofocus>
+                        </div>
+                        <div id="password">
+                            <label>Password</label><br>
+                            <input type="password" name="password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" placeholder="Minimum of 8 characters" required>
+                        </div>
+                        <div id="registerNow">
+                            <input type="button" value="Register Now">
+                        </div>
+                        <div id="registerGoogle">
+                            <input type="button" value="Register with Google">
+                        </div>
+                        <hr>
+                        <div id="logIn">
+                            <p>Do you have an account? <span>LOG IN</span></p>
+                        </div>                    
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <footer>
+            <div>
+                <nav>
+                    <ul>
+                        <li>About Us</li>
+                        <li>FAQs</li>
+                        <li>Careers</li>
+                        <li>Blog</li>
+                        <li>Terms and Privacy</li>
+                        <li>Countries</li>
+                        <li>Our Mission</li>
+                        <li>Our Vision</li>
+                        <li><a href="ContactUs.html" target="_self">Contact Us</a></li>                   
+                    </ul>
+                </nav>
+                <a href="LandingPage.html" target="_self"><img src="../Img/FooterActionPoint.svg" alt="Action Point"></a>
+                <p>All Rights Reserved @ ActionPoint.com</p>
+                <nav>
+                    <ul>
+                        <li><i class="fa-brands fa-vimeo-v"></i></li>
+                        <li><i class="fa-brands fa-youtube"></i></li>
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-linkedin"></i></li>
+                        <li><i class="fa-brands fa-whatsapp"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>                    
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>

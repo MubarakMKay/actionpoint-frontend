@@ -1,0 +1,746 @@
+body {
+    background-color: white;
+    width: 1440px;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+input, textarea, button {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+header {
+    display: flex;
+    height: 76px;
+    line-height: 22px;
+    font-weight: 400;
+    padding: 0 120px;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+}
+header span:nth-of-type(1) {
+    width: 138px;
+    margin: 27px 0px;    
+}
+header span img {
+    width: 138px;
+    height: 22px;
+}
+header nav {
+    width: 564.91px;
+    height: 22px;
+    margin: 27px 165px 27px 115px;
+}
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+header li {
+    list-style-type: none;
+    font-size: 16px;
+}
+header li:hover {
+    color: #3a187b;
+}
+header li:active {
+    color: #3a187b;
+}
+header span:nth-of-type(2) {
+    color: #3a187b;
+    margin: 27px 0;
+}
+header span:nth-of-type(3) {
+    width: 151px;
+    height: 76px;
+}
+header button{
+    color: #fff;
+    background-color: #4d1fa4;
+    width: 113px;
+    height: 45px;
+    margin: 16px 0 15px 39px;
+    padding: 12px 16px;
+    border-radius: 5px;
+    border: 0;
+}
+#first {
+    background-image: url("../Img/FirstBackground.png");
+    height: 664px;
+    text-align: center;
+    font-style: normal;
+}
+#first h1 {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 80px;
+    padding-top: 70px;
+    margin: 0;
+}
+#first h5 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+    margin: 30px 0;
+}
+#first input {
+    width: 467px;
+    height: 45px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding-left: 15px;
+    background-color: unset;
+    box-sizing: border-box;
+}
+#first button {
+    width: 113px;
+    height: 45px;
+    padding: 12px 16px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 0;
+    position: relative; left: -20px;
+}
+#second {
+    height: 822px;
+    box-sizing: border-box;
+    font-style: normal;
+    padding: 151px 120px 0px;
+}
+#second > img {
+    float: right;
+    padding-top: 51px;
+}
+#second h6{
+    width: 121px;
+    height: 24px;
+    color: rgba(19, 19, 19, 0.5);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+#second h4{
+    width: 420px;
+    height: 96px;
+    color: #3a187b;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 0;
+}
+#second p {
+    display: inline-block;
+    width: 445px;
+    height: 66px;
+    color: #131313;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 24px;
+    margin-bottom: 60px;
+}
+#second .rowOf2 {
+    display: flex;
+    justify-content: space-between;
+    width: 510px;
+    height: 102px;
+}
+#second .secondRowDiv {
+    display: flex;
+    flex-direction: row;
+    width: 204px;
+    height: 102px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px rgba(58, 24, 123, 0.1);
+    border-radius: 3px;
+    padding: 27px 31px;
+    border: 1px none #3A187B;
+}
+#second .secondRowDiv > img {
+    width: 47px;
+    height: 47px;
+}
+#second h5 {
+    display: inline-block;
+    color: #131313;
+    width: 74px;
+    height: 42px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    margin: 0 0 0 19px;
+
+}
+#second span {
+    color: rgba(0,0,0,0.6);
+    height: 14px;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 14px;
+    position: relative; top: -28px;
+}
+#second .secondRowDiv:hover {
+    border: 1px solid #3A187B;
+}
+#third {
+    background-image: url("../Img/ThirdBackground.png");
+    height: 706px;
+    text-align: center;
+    font-style: normal;
+    padding: 103px 297px;
+    box-sizing: border-box;
+}
+#third div:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 164px;
+    padding-bottom: 120px;
+}
+#third h6 {
+    height: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(255,255,255,0.5);
+    margin: 0;
+}
+#third h4 {
+    height: 48px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #fff;
+    margin: 0;
+}
+#third p {
+    height: 44px;
+    color: #E3D5FD;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+}
+#third div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 215.94px;
+}
+#third nav:nth-of-type(1) {
+    height: 104px;
+    width: 846px;
+}
+#third nav:nth-of-type(2) {
+    height: 71.94px;
+    width: 679.94px;
+}
+#third ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+#middleSection {
+    padding: 0 120px;
+    font-style: normal;
+}
+#fourth {
+    height: 535px;
+    box-sizing: border-box;
+    padding: 151px 0;
+}
+#fourth h6 {
+    width: 140px;
+    height: 24px;
+    color: rgba(19, 19, 19, 0.5);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+}
+#fourth h4 {
+    width: 499px;
+    height: 96px;
+    color: #3A187B;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 24px 0;
+}
+#fourth p {
+    width: 445px;
+    height: 66px;
+    color: #131313;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+#fourth button {
+    width: 130px;
+    height: 45px;
+    color: #fff;
+    background-color: #3A187B;
+    border: 0;
+    border-radius: 5px;
+    padding: 8px 16px;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 500;
+}
+#fourth > img {
+    float: right;
+}
+hr {
+    margin: 0;
+}
+#fifth nav {
+    width: 245px;
+    height: 20px;
+    padding: 53px 478px 0;
+}
+#fifth ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+#fifth li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #131313;
+}
+#fifth li:hover {
+    color: #3a187b;
+    border-bottom: 1px solid #3a187b;
+}
+#fifth section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 74px;
+}
+#fifth aside {
+    width: 380px;
+    height: 250px;
+}
+#fifth h6 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #131313;
+    margin: 19px 0 0;
+}
+#fifth aside:nth-of-type(2) {
+    box-shadow: 2px 2px 10px rgba(58, 24, 123, 0.1);
+}
+#sixth {
+    margin-top: 166px;
+    height: 713px;
+}
+#sixth aside{
+    width: 462px;
+    height: 493px;
+    margin-right: 26px;
+    float: right;
+}
+#sixth div {
+    width: 499px;
+    height: 234px;
+    float: left;
+    clear: left;
+}
+#sixth div h6 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(19, 19, 19, 0.5);
+    margin: 0;
+}
+#sixth div h4 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #3a187b;
+    margin: 24px 0;
+}
+#sixth div p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #131313;
+    margin: 0;
+}
+#sixth > img {
+    width: 601px;
+    height: 330px;
+    margin: 31px 0 0;
+    float: left;
+    clear: left;
+}
+#sixth button {
+    width: 167px;
+    height: 45px;
+    /* padding: 8px 16px; */
+    color: #fff;
+    background-color: #3A187B;
+    border: 0;
+    border-radius: 5px;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 500;
+}
+#seventh {
+    background-image: url("../Img/SeventhBackground.png");
+    height: 804px;
+    padding: 0 120px;
+    text-align: center;
+    font-style: normal;
+}
+#seventh div:nth-of-type(1) {
+    display: inline-block;
+    width: 553px;
+    height: 96px;
+    margin: 62px 323px 42px;
+}
+#seventh h6 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(255,255,255,0.5);
+    margin: 0;
+}
+#seventh h4 {
+    font: 600px;
+    font-size: 32px;
+    line-height: 48px;
+    color: #fff;
+    margin: 24px 0;
+}
+#seventh div:nth-of-type(2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 528px;
+}
+#seventh i {
+    font-size: 40px;
+    display: inline-block;
+    padding-bottom: 120px;
+}
+#eighth {
+    background-image: url("../Img/EighthBackground.png");
+    height: 834px;
+    padding: 0 120px;
+    font-style: normal;
+}
+#eighth > div {
+    display: inline-block;
+    width: 700px;
+    height: 164px;
+    margin: 99px 250px 55px;
+    text-align: center;
+}
+#eighth h6 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(19, 19, 19, 0.5);
+    margin: 0;
+}
+#eighth h4 {
+    font: 600px;
+    font-size: 32px;
+    line-height: 48px;
+    color: #3a187b;
+    margin: 24px 100.5px;
+}
+#eighth p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #131313;
+    margin: 0;
+}
+#eighth section {
+    display: flex;
+    justify-content: space-between;
+}
+#eighth section > div {
+    width: 346px;
+    height: 520px;
+}
+#eighth section > div > img {
+    width: 346px;
+    height: 410px;
+    margin: 0;
+}
+#eighth .imageDetails {
+    width: 178px;
+    height: 86px;
+    margin: 24px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#eighth .imageDetails span:nth-of-type(1) {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #131313;
+}
+#eighth .imageDetails span:nth-of-type(2) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(19, 19, 19, 0.5);
+}
+#eighth nav {
+    width: 147px;
+    height: 24px;
+}
+#eighth ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+#eighth i {
+    font-size: 24px;
+}
+#ninth {
+    height: 672px;
+    padding: 0 120px;
+    font-style: normal;
+}
+#ninth aside {
+    width: 499px;
+    height: 186px;
+    float: right;
+    margin: 127px 0 107px 57px;
+}
+#ninth div {
+    height: 186px;
+    text-align: end;
+    margin: 0 0 26px 0;
+}
+#ninth h6 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(19, 19, 19, 0.5);
+    margin: 0;
+}
+#ninth div h4 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #3a187b;
+    margin: 24px 0;
+}
+#ninth div p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #131313;
+    margin: 0;
+}
+#ninth section {
+    display: inline-block;
+    width: 593px;
+    height: 380px;
+    margin: 176px 0 116px 43px;
+}
+#ninth section h4 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #3a187b;
+    margin: 0 0 0 0;
+}
+#ninth section p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #131313;
+    margin: 14px 0 46px 0;
+}
+#ninth section span:nth-of-type(1) {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #131313;
+    margin: 4px 0;
+}
+#ninth section span:nth-of-type(2) {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #131313;
+    margin: 0;
+}
+#tenth {
+    background-image: url("../Img/TenthBackground.png");
+    height: 624px;
+    padding: 147px 822px 53px 120px;
+    box-sizing: border-box;
+    font-style: normal;
+}
+#tenth div:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 234px;
+    margin: 0;
+}
+#tenth h6 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(19, 19, 19, 0.5);
+    margin: 0;
+}
+#tenth h4 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #3a187b;
+    margin: 0;
+}
+#tenth p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #131313;
+    margin: 0;
+}
+#tenth div:nth-of-type(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 411px;
+    height: 60px;
+    margin: 41px 0 0;
+}
+footer {
+    background-image: url("../Img/FooterBackground.png");
+    height: 552px;
+    padding: 0px 120px;
+    font-style: normal;
+}
+footer aside:nth-of-type(1) {
+    display: inline-block;
+    width: 419px;
+    height: 68px;
+    text-align: start;
+    margin-top: 87px;
+}
+footer aside:nth-of-type(1) h6:nth-of-type(1) {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0;
+}
+footer aside:nth-of-type(1) h6:nth-of-type(2) {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+    margin: 8px 0 0;
+}
+footer aside:nth-of-type(2) {
+    float: right;
+    margin-top: 97px;
+    margin-right: 30px;
+}
+footer input {
+    width: 467px;
+    height: 45px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding-left: 15px;
+    background-color: unset;
+    box-sizing: border-box;
+}
+footer button {
+    width: 103px;
+    height: 45px;
+    padding: 12px 12px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 0;
+    position: relative; left: 28px;
+}
+footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    margin-top: 57px;
+}
+footer nav:nth-of-type(1) {
+    width: 937px;
+    height: 20px;
+    margin: 52px 131px 0;
+}
+footer nav:nth-of-type(1) ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+footer nav:nth-of-type(1) li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+}
+footer img {
+    width: 138px;
+    height: 22px;
+    margin: 48px 530px 0;
+}
+footer p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    margin: 48px 0 0;
+    text-align: center;
+}
+footer nav:nth-of-type(2) {
+    width: 270px;
+    height: 24px;
+    margin: 50px 464.5px 0;
+}
+footer nav:nth-of-type(2) ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+footer nav:nth-of-type(2) li {
+    width: 24px;
+    height: 24px;
+    color: #fff;
+}
+footer nav:nth-of-type(2) i {
+    font-size: 24px;
+}
